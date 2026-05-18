@@ -1,5 +1,5 @@
 import { FiInstagram, FiGithub, FiLinkedin, FiDownload } from "react-icons/fi";
-
+import kecoa from "../assets/kecoalucu.jpg";
 const skills = [
   { category: "Frontend", items: ["React", "Tailwind CSS", "Next.js", "TypeScript"] },
   { category: "Tools",    items: ["Git", "Figma", "VS Code"] },
@@ -14,7 +14,7 @@ export default function About() {
         <div className="relative">
           <div className="absolute w-72 h-72 bg-gray-300 rounded-full blur-3xl opacity-30" />
           <img
-            src="/images/kecoalucu.jpg"
+            src={kecoa}
             alt="profile"
             className="relative w-58 h-58 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl border border-gray-200"
           />
