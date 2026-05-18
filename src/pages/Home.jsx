@@ -8,6 +8,7 @@ import {
   FiLinkedin,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import kecoa from "../assets/kecoalucu.jpg";
 export default function Home(){
   return (
     <section className="min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-20 lg:px-50 bg-[#fafafa] pt-24">
@@ -18,7 +19,7 @@ export default function Home(){
 
         {/* IMAGE */}
         <img
-          src="/images/kecoalucu.jpg"
+          src={kecoa}
           alt="profile"
           className="relative w-58 h-58 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl border border-gray-200"
         />
