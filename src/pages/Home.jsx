@@ -50,15 +50,36 @@ export default function Home(){
 
         <div className="flex gap-4 mt-6 justify-center md:justify-start">
           <div className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer">
-            <FiInstagram className="text-lg" />
+            <a 
+              href="https://www.instagram.com/_sinhzl?igsh=MXJ0aGkxOGUyMTM2bA==" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer"
+           >
+          <FiInstagram className="text-lg" />
+            </a>
           </div>
 
           <div className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer">
-            <FiGithub className="text-lg" />
+            <a 
+              href="https://github.com/NahzulBalaghoh" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer"
+            >
+              <FiGithub className="text-lg" />
+            </a>
           </div>
 
           <div className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer">
-            <FiLinkedin className="text-lg" />
+            <a 
+              href="https://linkedin.com/in/nahzul-balaghoh" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 flex items-center justify-center border border-gray-400 rounded-full hover:bg-black hover:text-white transition cursor-pointer"
+            >
+              <FiLinkedin className="text-lg" />
+            </a>
           </div>
         </div>
       </div>

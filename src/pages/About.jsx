@@ -61,9 +61,9 @@ export default function About() {
         {/* SOCIALS + CV */}
         <div className="flex items-center gap-4 justify-center md:justify-start mt-2">
           {[
-            { icon: <FiInstagram className="text-lg" />, href: "#" },
-            { icon: <FiGithub className="text-lg" />, href: "#" },
-            { icon: <FiLinkedin className="text-lg" />, href: "#" },
+            { icon: <FiInstagram className="text-lg" />, href: "https://www.instagram.com/_sinhzl?igsh=MXJ0aGkxOGUyMTM2bA==" },
+            { icon: <FiGithub className="text-lg" />, href: "https://github.com/NahzulBalaghoh" },
+            { icon: <FiLinkedin className="text-lg" />, href: "https://linkedin.com/in/nahzul-balaghoh" },
           ].map((s, i) => (
             <a
               key={i}

@@ -2,10 +2,10 @@ import { FiInstagram, FiGithub, FiLinkedin, FiMail, FiSend } from "react-icons/f
 import { useState } from "react";
 
 const socials = [
-  { icon: <FiInstagram className="text-lg" />, label: "@nahzul",        href: "#" },
-  { icon: <FiGithub className="text-lg" />,    label: "github/nahzul",  href: "#" },
-  { icon: <FiLinkedin className="text-lg" />,  label: "linkedin/nahzul",href: "#" },
-  { icon: <FiMail className="text-lg" />,      label: "nahzul@email.com",href: "mailto:nahzul@email.com" },
+  { icon: <FiInstagram className="text-lg" />, label: "@_sinhzl",        href: "https://www.instagram.com/_sinhzl?igsh=MXJ0aGkxOGUyMTM2bA==" },
+  { icon: <FiGithub className="text-lg" />,    label: "github/NahzulBalaghoh",  href: "https://github.com/NahzulBalaghoh" },
+  { icon: <FiLinkedin className="text-lg" />,  label: "linkedin/Nahzul Balaghoh",href: "https://linkedin.com/in/nahzul-balaghoh" },
+  { icon: <FiMail className="text-lg" />,      label: "nahzulbalaghoh18@gmail.com",href: "mailto:nahzulbalaghoh18@gmail.com" },
 ];
 
 export default function Contact() {
